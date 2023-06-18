@@ -1,0 +1,52 @@
+.videos img{
+width:100%;
+height:202px;
+border-radius:10px;
+}
+.videos-container > h1{
+    text-align: start;
+    display: inline-block;
+    justify-self: flex-start;
+}
+.videos{
+    width: 24%;
+}
+.videoData{
+    width: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    gap: 5px;
+    /*justify-content:space-between;*/
+}
+/* .videoDetails{ 
+    width:50%;
+    margin:
+ } */
+.video{
+    width:25%;
+    margin:10px 0px;
+}
+.video h3{
+    margin-top:5px;
+    margin-bottom:2px;
+}
+.video p, .video a{
+    color:#606060;
+    cursor:pointer;
+    margin:0px;
+}
+.shortsData{
+    margin: 20px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.shorts{
+    width: 15.66%;
+}
+.shorts img {
+    width: 100%;
+    object-fit: fill;
+    border-radius: 5px;
+}
